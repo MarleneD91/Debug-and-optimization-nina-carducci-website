@@ -30,3 +30,24 @@
     font-style: italic;
     color: #727478;
 }
+/* Contact informations */
+.contact-info {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.contact-info, .address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #505b6e;
+}
+.contact-name {
+    font-weight: 700;
+    font-size: 20px;
+}
+.contact-job {
+    font-style: italic;
+}
+.address, .telephone, .opening-schedule {
+    font-size: 14px;
+}

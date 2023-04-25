@@ -164,21 +164,23 @@
 
 <footer class="footer">
 	<!-- Adding contact info with Schema.org microdata -->
-	<div class="contact-info" itemscope itemtype="https://schema.org/Person">
-		<span itemprop="name">Nina Carducci</span>
-		<span itemprop="jobTitle">Photographe</span>
-			<div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-			  <span itemprop="streetAddress">68 Avenue Alsace-Lorraine</span>
-			  <span itemprop="postalCode">33200</span> <span itemprop="addressLocality">Bordeaux</span>
-			</div>
-		<span itemprop="telephone">05.56.67.78.89</span>
-		<span itemprop="openingHours"> Disponible du lundi au vendredi, de 10h à 19.</span>
+	<div class="contact-info" itemscope itemtype="http://schema.org/LocalBusiness" >
+		<span class="contact-name" itemprop="name">Nina Carducci</span>
+		<span class="contact-job" itemprop="jobTitle">Photographe</span>
+		<div class="address" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+			<span itemprop="streetAddress">68 Avenue Alsace-Lorraine</span>
+			<div><span itemprop="postalCode">33200</span> <span itemprop="addressLocality">Bordeaux</span></div>
+			<meta itemprop="addressCountry" content="FRANCE">
+		</div>
+		<span class="telephone" itemprop="telephone">05.56.67.78.89</span>
+		<div class="opening-schedule">
+			Disponible du <span itemprop="dayOfWeek" itemscope itemtype="http://schema.org/DayOfWeek">lundi au vendredi</span>, 
+			<span itemprop="openingHoursSpecification" itemscope itemtype="http://schema.org/OpeningHoursSpecification" >de 10h à 19h.</span>
+		</div>
 		<a href="mailto:nina.carducci.photographe@gmail.com" itemprop="email">nina.carducci.photographe@gmail.com</a>
 	</div>
 <!-- end of contact info -->
-	
-		<p></p>
-	</div>
+
 	<ul class="media-footer">
 		<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img width="60" height="60" src="assets/images/instagram.webp" alt="Icone Instagram"></a></li>
 		<li><a class="social-link" href="" target="_blank"><img width="60" height="60" src="assets/images/pinterest.webp" alt="Icone Pinterest"></a></li>
