@@ -103,7 +103,7 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #411D59;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -111,7 +111,7 @@ body {
 }
 /* Adding the background color on filters when focused */
 .nav-item > .active-tag {
-	background-color: #BEB45A;
+	background-color: #411D59;
 }
 /* --------------- end of modification -------------- */
 .item-column {
