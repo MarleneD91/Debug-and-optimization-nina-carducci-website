@@ -1,0 +1,32 @@
+/* H1 and subtitle */
+.photographer {
+    display: flex;
+    flex-direction: column;
+}
+.subtitle {
+    font-size: 13px;
+    font-style: italic;
+    color: #b8bab9;
+}
+
+/*Footer*/
+.footer {
+    margin: 10px;
+}
+.media-footer {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 0;
+}
+.social-link {
+    margin : 20px;
+}
+/* Copyright */
+.copyright {
+    font-size: 12px;
+    font-style: italic;
+    color: #727478;
+}
