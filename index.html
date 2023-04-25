@@ -163,7 +163,22 @@
 </div>
 
 <footer class="footer">
-	<div class="adress"></div>	
+	<!-- Adding contact info with Schema.org microdata -->
+	<div class="contact-info" itemscope itemtype="https://schema.org/Person">
+		<span itemprop="name">Nina Carducci</span>
+		<span itemprop="jobTitle">Photographe</span>
+			<div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+			  <span itemprop="streetAddress">68 Avenue Alsace-Lorraine</span>
+			  <span itemprop="postalCode">33200</span> <span itemprop="addressLocality">Bordeaux</span>
+			</div>
+		<span itemprop="telephone">05.56.67.78.89</span>
+		<span itemprop="openingHours"> Disponible du lundi au vendredi, de 10h à 19.</span>
+		<a href="mailto:nina.carducci.photographe@gmail.com" itemprop="email">nina.carducci.photographe@gmail.com</a>
+	</div>
+<!-- end of contact info -->
+	
+		<p></p>
+	</div>
 	<ul class="media-footer">
 		<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img width="60" height="60" src="assets/images/instagram.webp" alt="Icone Instagram"></a></li>
 		<li><a class="social-link" href="" target="_blank"><img width="60" height="60" src="assets/images/pinterest.webp" alt="Icone Pinterest"></a></li>
