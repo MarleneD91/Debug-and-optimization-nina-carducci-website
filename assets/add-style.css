@@ -51,3 +51,10 @@
 .address, .telephone, .opening-schedule {
     font-size: 14px;
 }
+ 
+/* Dealing with imgs' width and height*/
+img {
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: initial;
+}
