@@ -23,7 +23,9 @@
 			<meta property="og:type" content="website"/>
 			<meta property="og:url" content="https://marlened91.github.io/nina-carducci-photographe.github.io/"/> <!-- Change address when modifications are validated-->
 			<meta property="og:image" content="https://marlened91.github.io/nina-carducci-photographe.github.io/assets/images/nina-professional-photographer.webp"/> <!-- Same for picture path -->
-			<meta property="og:description" content="Nina Carducci, photographe professionnelle et passionnée, vous fait découvrir son travail. Capturer les plus belles émotions et les partager avec vous, telle est sa vocation. A Bordeaux ou ailleurs, n'hésitez pas à la contacter!"/>
+			<meta property="og:description" content="Nina Carducci, photographe professionnelle et passionnée, vous fait découvrir son travail.
+													Capturer les plus belles émotions et les partager avec vous, telle est sa vocation.
+													A Bordeaux ou ailleurs, n'hésitez pas à la contacter!"/>
 
 </head>
 <body>
@@ -51,13 +53,21 @@
 		</div>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img width="350" height="162" src="./assets/images/slider/ryoji-iwata-business-stripes.webp" class="d-block w-100" alt="Picture of a business man walking on black and white stripes">
+				<img  srcset="./assets/images/slider/ryoji-iwata-business-stripes.webp 1920w,
+					./assets/images/slider/ryoji-iwata-business-stripes-large.webp 1580w,
+					./assets/images/slider/ryoji-iwata-business-stripes-medium.webp 1140w,
+					./assets/images/slider/ryoji-iwata-business-stripes-small.webp 300w" sizes="100vw"
+					class="d-block w-100" alt="Picture of a business man walking on black and white stripes"  >
 			</div>
 			<div class="carousel-item">
-				<img width="350" height="162" src="./assets/images/slider/nicholas-green-concert-crowd.webp"  class="d-block w-100" alt="Picture of male crowd enjoying a concert">
+				<img srcset="./assets/images/slider/nicholas-green-concert-crowd.webp 1920w,
+					./assets/images/slider/nicholas-green-concert-crowd-large.webp 1620w,
+					./assets/images/slider/nicholas-green-concert-crowd-medium.webp 1260w" sizes="100vw"
+					class="d-block w-100" alt="Picture of male crowd enjoying a concert" loading="lazy">
 			</div>
 			<div class="carousel-item">
-				<img width="350" height="162" src="./assets/images/slider/edward-cisneros-wedding-kiss.webp"  class="d-block w-100" alt="Picture of a bride and a groom kissing during their wedding dance">
+				<img  src="./assets/images/slider/edward-cisneros-wedding-kiss.webp"  
+				class="d-block w-100" alt="Picture of a bride and a groom kissing during their wedding dance" loading="lazy">
 			</div>
 		</div>
 		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -174,7 +184,7 @@
 	<!-- Adding contact info with Schema.org microdata -->
 	<div class="contact-info" itemscope itemtype="http://schema.org/LocalBusiness" >
 		<span class="contact-name" itemprop="name">Nina Carducci</span>
-		<span class="contact-job" itemprop="jobTitle">Photographe</span>
+		<span class="contact-job">Photographe</span>
 		<div class="address" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
 			<span itemprop="streetAddress">68 Avenue Alsace-Lorraine</span>
 			<div><span itemprop="postalCode">33200</span> <span itemprop="addressLocality">Bordeaux</span></div>
@@ -182,7 +192,7 @@
 		</div>
 		<span class="telephone" itemprop="telephone">05.56.67.78.89</span>
 		<div class="opening-schedule">
-			Disponible du <span itemprop="dayOfWeek" itemscope itemtype="http://schema.org/DayOfWeek">lundi au vendredi</span>, 
+			Disponible du lundi au vendredi, 
 			<span itemprop="openingHoursSpecification" itemscope itemtype="http://schema.org/OpeningHoursSpecification" >de 10h à 19h.</span>
 		</div>
 		<a href="mailto:nina.carducci.photographe@gmail.com" itemprop="email">nina.carducci.photographe@gmail.com</a>
