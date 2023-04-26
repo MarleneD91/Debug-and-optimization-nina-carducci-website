@@ -112,6 +112,7 @@ body {
 /* Adding the background color on filters when focused */
 .nav-item > .active-tag {
 	background-color: #411D59;/* Improving contrast ratio*/
+	color: #fff;
 }
 /* --------------- end of modification -------------- */
 .item-column {
