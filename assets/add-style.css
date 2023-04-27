@@ -24,12 +24,7 @@
 .social-link {
     margin : 20px;
 }
-/* Copyright */
-.copyright {
-    font-size: 12px;
-    font-style: italic;
-    color: #727478;
-}
+
 /* Contact informations */
 .contact-info {
     margin-top: 40px;
@@ -57,4 +52,22 @@ img {
     max-width: 100%;
     height: auto;
     aspect-ratio: initial;
+}
+
+/* Legals*/
+.legals {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #727478;
+    margin: 5px;
+    font-size: 14px;
+}
+
+.copyright {
+    font-style: italic;
+}
+
+.legal-notice {
+    text-decoration: underline;
 }
