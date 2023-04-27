@@ -103,7 +103,7 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #1C6474;/* Improving contrast ratio*/
+	background-color: #1B5A6F;/* Improving contrast ratio*/
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -111,7 +111,7 @@ body {
 }
 /* Adding the background color on filters when focused */
 .nav-item > .active-tag {
-	background-color: #1C6474;/* Improving contrast ratio*/
+	background-color: #1B5A6F;/* Improving contrast ratio*/
 	color: #fff;
 }
 /* --------------- end of modification -------------- */
